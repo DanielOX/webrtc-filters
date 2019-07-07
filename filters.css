@@ -1,0 +1,30 @@
+.sepia {
+    filter:sepia(1);
+    -webkit-filter: sepia(1);
+    -moz-filter: sepia(1);
+    -o-filter:sepia(1);
+}
+
+.grayscale {
+    filter:grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter:grayscale(1);
+}
+
+.invert {
+    filter:invert(1);
+    -webkit-filter: invert(1);
+    -moz-filter: invert(1);
+    -o-filter:invert(1);
+}
+
+#video {
+    background-size: cover;
+}
+
+p {
+    display: flex;
+    justify-content: space-between;
+    padding:0px 25% 0px 25%;
+}
